@@ -3,5 +3,3 @@ streamlit
 gTTS==2.2.1
 googletrans==3.0.0
 playsound==1.2.2
-datetime
-os
