@@ -1,4 +1,4 @@
-gunicorn==19.9.0
+
 streamlit
 gTTS==2.2.1
 googletrans==3.0.0
