@@ -1,6 +1,4 @@
-gtts
+gtts>=2.2.1
 streamlit
-playsound
-googletrans
-datetime
-os
+playsound>=1.2.2
+googletrans>=3.0.0
