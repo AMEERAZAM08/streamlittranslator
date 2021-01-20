@@ -3,7 +3,7 @@ import datetime as dt
 from googletrans import Translator
 import gtts
 from playsound import playsound
-import os
+#import os
 trans=Translator()
 st.title('First streamlit project')
 now=dt.datetime.now()
@@ -15,7 +15,7 @@ if st.button('Listen input'):
     tts = gtts.gTTS(input_text, lang="en")
     tts.save("hola.mp3")
     playsound("hola.mp3")
-    os.remove("hola.mp3")
+    #os.remove("hola.mp3")
 
 
 
@@ -35,7 +35,7 @@ if st.button('Listen output'):
     tts = gtts.gTTS(result, lang=dict[option])
     tts.save("hola.mp3")
     playsound("hola.mp3")
-    os.remove("hola.mp3")
+    #os.remove("hola.mp3")
 if st.button('Translate'):
     st.success(result)
     st.write(type(dict[option]))
